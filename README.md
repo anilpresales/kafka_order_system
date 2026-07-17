@@ -8,7 +8,7 @@ build manually when you don't have Temporal.
 
 At Confluent, I worked with customers like Henry Schein building
 event-driven order processing on Kafka. The core problem was always
-the same — Kafka moves data reliably but doesn't track WHERE a
+the same, Kafka moves data reliably but doesn't track WHERE a
 specific order is in its lifecycle. When payment succeeded but
 warehouse notification failed, engineers had to piece together state
 from logs across multiple services at 2am.
@@ -81,10 +81,10 @@ from logs across multiple services at 2am.
 ## The Gap vs Temporal
 
 ```
-⚠️  Compensation has no guarantee — producing to order-compensation
+⚠️  Compensation has no guarantee: producing to order-compensation
     does not mean inventory_service will pick it up and restock.
 
-⚠️  No single source of truth — to find where order ord-8821 is,
+⚠️  No single source of truth: To find where order ord-8821 is,
     you must check every topic, every consumer offset, and every
     service log across 5+ services.
 
