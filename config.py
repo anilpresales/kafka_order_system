@@ -5,8 +5,8 @@
 # YOUR CONFLUENT CLOUD CREDENTIALS — fill these in
 # ─────────────────────────────────────────────────────────────
 BOOTSTRAP_SERVERS = "pkc-419q3.us-east4.gcp.confluent.cloud:9092"
-API_KEY           = "NWZEDB6TDAWFRQ66"
-API_SECRET        = "cfltAYB2KJgkGl1Ff7aAYGzfLCnqwmHYKQX4Y/1CaPD23kSm/qwJaWSPbFLrn4+Q"
+API_KEY           = "APIKEY"
+API_SECRET        = "SECRET"
 
 # ─────────────────────────────────────────────────────────────
 # BASE CONFIGS
