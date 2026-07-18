@@ -4,7 +4,7 @@
 # ─────────────────────────────────────────────────────────────
 # YOUR CONFLUENT CLOUD CREDENTIALS — fill these in
 # ─────────────────────────────────────────────────────────────
-BOOTSTRAP_SERVERS = "pkc-419q3.us-east4.gcp.confluent.cloud:9092"
+BOOTSTRAP_SERVERS = "bootstrap:9092"
 API_KEY           = "APIKEY"
 API_SECRET        = "SECRET"
 
